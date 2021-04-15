@@ -1,0 +1,17 @@
+header{
+    text-align: center;
+    font:normal 25px;
+    color: rgba(50, 17, 236, 0.651);
+}
+section{
+  
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(158, 198, 252);
+    border-radius: 12px;
+    box-shadow: rgb(4, 187, 187) 0px 0px 2px 2px;
+    margin:auto;
+    padding: 15px;
+    
+}
