@@ -5,15 +5,15 @@ function tabuada(){
         alert('Por favaor, digite um numero!')
 
     }else{
-        var n = Number(num.value) // converte a variável para número
+        var n = Number(num.value) 
         var c = 1
-        tab.innerHTML= '' // esta parte serve para zerar o formulário da tabela, caso contrário, os valores permanecem acumulados
+        tab.innerHTML= '' 
 
-        while(c <=10){ // enquanto c for menor ou igual a 10
-            var item = document.createElement('option') // cria um elemento de opção
-            item.text = `${n} x ${c} = ${n*c}` // mostra a multiplicação entre n e c
-            tab.appendChild(item) // adiciona um elemento filho
-            item.value = `tab${c}` // seleciona as tabelas para controle , utilizado mais em php
+        while(c <=10){ 
+            var item = document.createElement('option') 
+            item.text = `${n} x ${c} = ${n*c}` 
+            tab.appendChild(item) 
+            item.value = `tab${c}` 
             c++
         }
        }
